@@ -13,3 +13,4 @@ Route::get('/planets', [PlanetController::class, 'index']);
 Route::get('/planets/{planet}', [PlanetController::class, 'show']);
 
 Route::get('/users/{user}', [UserController::class, 'show']);
+
